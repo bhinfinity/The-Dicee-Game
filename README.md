@@ -5,7 +5,7 @@ A simple and fun dice game where two players roll dice, and the one with the hig
 ## 🚀 Features
 
 - 🎭 Enter player names only once (saved in session storage)
-- 🎲 Random dice rolls on each refresh
+- 🎲 Random dice rolls on each click
 - 🏆 Displays the winner dynamically
 - 🎨 Clean and modern UI with a floating control panel
 - 🔄 "Roll the Dice again" button for quick replays
