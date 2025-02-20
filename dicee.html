@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Dicee</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Name Input Form -->
+  <div id="namePopup" class="popup">
+    <label>Player 1:</label>
+    <input type="text" id="player1Input" placeholder="Enter first player's name">
+    <label>Player 2:</label>
+    <input type="text" id="player2Input" placeholder="Enter second player's name">
+    <button onclick="saveNames()">Start Game</button>
+  </div>
+
+  <!-- Roll Button (Hidden Initially) -->
+  <div id="refreshPopup" class="popup" style="display: none;">
+    <button onclick="location.reload()">🎲 Roll the Dice again</button>
+  </div>
+
+
+
+  <div class="container">
+    <h1>Refresh Me</h1>
+
+    <div class="dice">
+      <p>Player 1</p>
+      <img class="img1" src="./images/dice6.png" alt="Dice image" />
+    </div>
+
+    <div class="dice">
+      <p>Player 2</p>
+      <img class="img2" src="./images/dice6.png" alt="Dice image" />
+    </div>
+  </div>
+</body>
+<script src="./index.js"></script>
+
+<footer>Made by - 🎲 Pratham Lodha 🎲</footer>
+
+</html>
