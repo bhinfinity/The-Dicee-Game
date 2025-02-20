@@ -8,7 +8,7 @@ A simple and fun dice game where two players roll dice, and the one with the hig
 - 🎲 Random dice rolls on each refresh
 - 🏆 Displays the winner dynamically
 - 🎨 Clean and modern UI with a floating control panel
-- 🔄 "Roll the Dice" button for quick replays
+- 🔄 "Roll the Dice again" button for quick replays
 
 ## 📸 Screenshots
 ![Game Screenshot](images/gameSS.png)
